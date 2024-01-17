@@ -157,7 +157,7 @@ export const CtfHeroBanner = (props: HeroBannerFieldsFragment) => {
           <Typography
             variant="h1"
             className={classes.headline}
-            style={{ color: colorConfig.headlineColor }}
+            style={{ color: 'red' }}
             {...inspectorMode({ fieldId: 'headline' })}
           >
             {headline}
